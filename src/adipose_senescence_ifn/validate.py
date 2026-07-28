@@ -168,9 +168,10 @@ def validate_repository(root: Path) -> tuple[bool, list[dict]]:
         "|---|---:|---|",
     ]
     for check in checks:
+        escaped_detail = check["detail"].replace("|", "\\|")
         lines.append(
             f"| `{check['name']}` | {'PASS' if check['passed'] else 'FAIL'} | "
-            f"{check['detail'].replace('|', '\\|')} |"
+            f"{escaped_detail} |"
         )
     lines.extend(
         [
