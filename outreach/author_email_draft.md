@@ -1,4 +1,8 @@
-# Author email draft
+# Author email — sent copy
+
+Sent: 2026-07-29 01:57:24 Europe/Moscow
+
+Gmail message/thread ID: `19faaf276fdcec62`
 
 To: Qijing Xie (`chichi@calicolabs.com`)
 
@@ -25,8 +29,10 @@ Would you be willing to share the longitudinal ScaleBio count matrix and
 de-identified cell/sample metadata? The minimum fields needed are animal ID,
 age, SAT/VAT depot, sex, sample/library, broad cell type, and final vascular
 subtype. An `.h5ad`, sparse Matrix Market package, or your preferred equivalent
-would work. A precise field list is available here:
+would work. A precise field list and the verified pre-data release are
+available here:
 https://github.com/kyka776/adipose-senescence-ifn/blob/main/data-request.md
+https://github.com/kyka776/adipose-senescence-ifn/releases/tag/v0.1.0
 
 Raw data would remain private and excluded from Git. I would publish only the
 analysis code, provenance/checksums, aggregate animal-level results, and
@@ -38,5 +44,5 @@ Thank you for considering the request, and for the detailed experimental work.
 
 Best regards,
 
-Kyka
+Lev Shikanian
 https://github.com/kyka776/adipose-senescence-ifn
