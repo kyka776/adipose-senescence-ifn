@@ -1,0 +1,25 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Study data and third-party caches are never versioned.
+data/raw/*
+!data/raw/.gitkeep
+data/external/*
+!data/external/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+results/private/*
+!results/private/.gitkeep
+
+# Notebook and plotting caches.
+.ipynb_checkpoints/
+.matplotlib/
+

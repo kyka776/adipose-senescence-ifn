@@ -1,0 +1,6 @@
+variant	mapped_mouse_genes	genes_removed
+sencat_full	4630	0
+sencat_minus_ifng	4599	31
+sencat_minus_mhcii	4571	59
+sencat_minus_arrest	4614	16
+sencat_residual	4524	106

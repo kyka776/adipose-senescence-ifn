@@ -1,0 +1,4 @@
+* whitespace=-blank-at-eof
+*.svg -whitespace
+*.tsv -whitespace
+

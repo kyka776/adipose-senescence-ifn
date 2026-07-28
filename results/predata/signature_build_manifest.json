@@ -1,0 +1,64 @@
+{
+  "counts": {
+    "axes": {
+      "cell_cycle_arrest": {
+        "axis": "cell_cycle_arrest",
+        "fraction_of_axis_overlapping_sencat": 0.5517241379310345,
+        "mapped_mouse_genes": 29,
+        "overlap_with_sencat": 16,
+        "source_human_genes": 30,
+        "unmapped_human_genes": 1
+      },
+      "ifng_response": {
+        "axis": "ifng_response",
+        "fraction_of_axis_overlapping_sencat": 0.4305555555555556,
+        "mapped_mouse_genes": 72,
+        "overlap_with_sencat": 31,
+        "source_human_genes": 99,
+        "unmapped_human_genes": 27
+      },
+      "mhcii_antigen_presentation": {
+        "axis": "mhcii_antigen_presentation",
+        "fraction_of_axis_overlapping_sencat": 0.5462962962962963,
+        "mapped_mouse_genes": 108,
+        "overlap_with_sencat": 59,
+        "source_human_genes": 127,
+        "unmapped_human_genes": 19
+      }
+    },
+    "homology": {
+      "ambiguous_cross_species_classes": 1397,
+      "homology_classes": 21929,
+      "one_to_one_pairs": 17611
+    },
+    "sencat_human": 4979,
+    "sencat_mouse_one_to_one": 4630,
+    "sencat_unmapped": 349,
+    "variants": {
+      "sencat_full": 4630,
+      "sencat_minus_arrest": 4614,
+      "sencat_minus_ifng": 4599,
+      "sencat_minus_mhcii": 4571,
+      "sencat_residual": 4524
+    }
+  },
+  "generated_at": "2026-07-28T22:18:21.377779+00:00",
+  "mgi_source_sha256": "4823cbf8ea7961d17419c891c56a2474b643515333f99492b9d2ae3107f335ea",
+  "mouse_signature_bundle_sha256": "6a8f270cf8385214a72bd7aedac91bdbc8f8ab00eae0591afb47df0d5126b5d0",
+  "reactome_release": 97,
+  "redistribution": {
+    "detailed_sencat_material": false,
+    "public_outputs_are_aggregate_counts_only": true
+  },
+  "sencat_commit": "6c16d47dd94daccebb06d35e7f09f0516983a6a3",
+  "sencat_source_sha256": "699dd16ee3b956b4b9442c22a36b03a82b483d80b93036d54fae1ea3589cb093",
+  "source_sha256": {
+    "https://raw.githubusercontent.com/maragkakislab/wf-ml-markers-senescence/6c16d47dd94daccebb06d35e7f09f0516983a6a3/analysis/transcriptomics_loose5000f_tuned_common_features.csv": "699dd16ee3b956b4b9442c22a36b03a82b483d80b93036d54fae1ea3589cb093",
+    "https://reactome.org/ContentService/data/database/version": "d6d824abba4afde81129c71dea75b8100e96338da5f416d2f69088f1960cb091",
+    "https://reactome.org/ContentService/data/participants/R-HSA-2132295": "2f391fde9b0ca1d30c61610b0b39f55290debc960dac525a4154a041cb75e5c7",
+    "https://reactome.org/ContentService/data/participants/R-HSA-6804114": "84f70e74c696ce18e5c191e9997afe469a0209fc2a805b58e4b4db3479c553e0",
+    "https://reactome.org/ContentService/data/participants/R-HSA-6804116": "12c56fa43c4854208ef5839a9c793ecdd6ff25f441fa94e5616f460b40e0c02f",
+    "https://reactome.org/ContentService/data/participants/R-HSA-877300": "1356cb6f72f4e275db7cf9327b23d19b8eda9071dec230557837ace3bc577755",
+    "https://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt": "4823cbf8ea7961d17419c891c56a2474b643515333f99492b9d2ae3107f335ea"
+  }
+}

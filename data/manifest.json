@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "study": {
+    "title": "Senescent cells induce vascular MHC II to recruit CD4+ T cells and drive inflammation in aging adipose tissue",
+    "doi": "10.64898/2026.05.13.724992",
+    "matched_atlas_status": "CONTACT_REQUIRED",
+    "checked_at": "2026-07-29",
+    "local_raw_files": []
+  },
+  "gate_0": {
+    "passed": false,
+    "reason": "Matched animal-resolved expression and metadata files are not publicly downloadable; author request required.",
+    "required_fields": [
+      "cell_id",
+      "animal_id",
+      "age_months",
+      "depot",
+      "sex",
+      "cell_type",
+      "subtype"
+    ],
+    "minimum_animals_per_age_depot": 3
+  }
+}
+

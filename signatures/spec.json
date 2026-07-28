@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "target_species": "Mus musculus",
+  "sencat": {
+    "repository": "https://github.com/maragkakislab/wf-ml-markers-senescence",
+    "commit": "6c16d47dd94daccebb06d35e7f09f0516983a6a3",
+    "path": "analysis/transcriptomics_loose5000f_tuned_common_features.csv",
+    "sha256": "699dd16ee3b956b4b9442c22a36b03a82b483d80b93036d54fae1ea3589cb093",
+    "license": "NO-LICENSE-FOUND",
+    "redistribute": false
+  },
+  "reactome": {
+    "release": 97,
+    "license": "CC0-1.0",
+    "pathways": {
+      "ifng_response": ["R-HSA-877300"],
+      "mhcii_antigen_presentation": ["R-HSA-2132295"],
+      "cell_cycle_arrest": ["R-HSA-6804116", "R-HSA-6804114"]
+    }
+  },
+  "homology": {
+    "source": "MGI HOM_MouseHumanSequence.rpt",
+    "url": "https://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt",
+    "sha256": "4823cbf8ea7961d17419c891c56a2474b643515333f99492b9d2ae3107f335ea",
+    "license": "CC-BY-4.0",
+    "policy": "retain only homology classes with exactly one human and one mouse gene"
+  },
+  "depletion": {
+    "sencat_minus_ifng": ["ifng_response"],
+    "sencat_minus_mhcii": ["mhcii_antigen_presentation"],
+    "sencat_minus_arrest": ["cell_cycle_arrest"],
+    "sencat_residual": [
+      "ifng_response",
+      "mhcii_antigen_presentation",
+      "cell_cycle_arrest"
+    ]
+  }
+}

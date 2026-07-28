@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adipose-senescence-ifn"
+version = "0.1.0"
+description = "Animal-aware decomposition of senescence, IFN-gamma, MHC-II, and arrest programs in aging mouse adipose vasculature"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "kyka776"}]
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "scipy>=1.13,<2",
+  "statsmodels>=0.14,<1",
+  "matplotlib>=3.8,<4",
+]
+
+[project.optional-dependencies]
+h5ad = ["anndata>=0.10,<1"]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+adipose-senescence-ifn = "adipose_senescence_ifn.cli:main"
+
+[project.urls]
+Repository = "https://github.com/kyka776/adipose-senescence-ifn"
+Preprint = "https://doi.org/10.64898/2026.05.13.724992"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

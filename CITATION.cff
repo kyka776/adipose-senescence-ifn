@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository release and the source resources listed in signatures/provenance.md."
+title: "Adipose Senescence–IFN Decomposition"
+type: software
+authors:
+  - name: kyka776
+repository-code: "https://github.com/kyka776/adipose-senescence-ifn"
+license: MIT
+version: 0.1.0
+date-released: 2026-07-29
+

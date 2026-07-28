@@ -1,0 +1,4 @@
+axis	source_human_genes	mapped_mouse_genes	unmapped_human_genes	overlap_with_sencat	fraction_of_axis_overlapping_sencat
+ifng_response	99	72	27	31	0.4305555555555556
+mhcii_antigen_presentation	127	108	19	59	0.5462962962962963
+cell_cycle_arrest	30	29	1	16	0.5517241379310345
